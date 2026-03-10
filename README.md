@@ -7,6 +7,11 @@ This project demonstrates the design and implementation of an end-to-end data an
 
 The pipeline integrates Python-based preprocessing, AWS cloud services for automation and ETL, and Power BI dashboards for data visualization.
 
+# Architecture
+
+![Architecture](https://github.com/user-attachments/assets/e6f7e409-c7a0-4fe7-b388-64aaf9e73113)
+
+
 # AWS S3
 Stores the raw dataset
 Acts as the central storage layer for the pipeline
