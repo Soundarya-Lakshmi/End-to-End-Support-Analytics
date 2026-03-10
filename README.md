@@ -7,28 +7,30 @@ This project demonstrates the design and implementation of an end-to-end data an
 
 The pipeline integrates Python-based preprocessing, AWS cloud services for automation and ETL, and Power BI dashboards for data visualization.
 
-# Architecture
+# Workflow
 
 ![Architecture](https://github.com/user-attachments/assets/e6f7e409-c7a0-4fe7-b388-64aaf9e73113)
 
 
-# AWS S3
+# Workflow Explanation
+
+AWS S3
 Stores the raw dataset
 Acts as the central storage layer for the pipeline
 
-# AWS Glue
+AWS Glue
 Performs ETL transformations
 Cleans and prepares the dataset for analysis
 
-# AWS Lambda
+AWS Lambda
 Automates parts of the workflow
 Handles event-based triggers
 
-# Python
+Python
 Used for data cleaning and preprocessing
 Data transformation logic
 
-# Power BI
+Power BI
 Used to build the final analytical dashboard
 
 The Power BI dashboard provides insights such as:
